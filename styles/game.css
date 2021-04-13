@@ -1,0 +1,43 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    border: 3px solid rgb(20, 147, 220);
+    background-color: white;
+}
+.choice-container:hover{/* settings for choice boxes when mouse over*/
+    cursor: pointer;
+    box-shadow: 4px 4px 0 rgb(225, 100, 237);
+    transform: translate 150ms;
+}
+
+.choice-prefix{
+    padding: 24px 30px;
+    background-color: #56a5eb;
+    color: white;
+}
+.choice-text{
+    padding: 24px;
+    width: 100%;
+}
+.correct{
+    background-color: green;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+#hud{
+display: flex;
+justify-content: space-between;
+font-size: 48px;
+}
+.hud-prefeix{
+    text-align: center;
+    
+}
+.hud-main-text{
+    text-align: center;
+}
